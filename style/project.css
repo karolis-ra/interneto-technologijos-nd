@@ -1,0 +1,47 @@
+body {
+  min-height: 100vh;
+  font-family: Bebas Neue;
+  margin: 0;
+  text-align: center;
+  color: white;
+  background: #fff;
+}
+.title {
+  margin-top: 50px;
+  color: #46344e;
+}
+
+.content {
+  display: flex;
+  padding: 100px 25px 100px 25px;
+  gap: 50px;
+}
+
+.left-cont-box {
+  text-align: left;
+  font-size: 18px;
+  width: 50%;
+  color: black;
+}
+
+.right-cont-box {
+  width: 50%;
+}
+
+.right-cont-box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 890px) {
+  .content {
+    padding: 50px 25px 50px 25px;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .left-cont-box,
+  .right-cont-box {
+    width: 100%;
+  }
+}
