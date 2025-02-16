@@ -1,9 +1,8 @@
 body {
   min-height: 100vh;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   margin: 0;
   text-align: center;
-  color: white;
   background: #ffffff;
 }
 
@@ -106,9 +105,9 @@ button {
   border-radius: 10px;
   font-size: 20px;
   font-weight: 800;
-  color: 9d8d8f;
+  color: #9d8d8f;
   background-color: #faed26;
-  border-color: 9d8d8f;
+  border-color: #9d8d8f;
   border-style: solid;
   cursor: pointer;
   transition: 0.3s;
